@@ -38,12 +38,12 @@ form{
         background-color: #F7EEDD;
     }
 
-:valid{
+#emailInput:valid{
     border-style: inset;
     border-color: rgb(14, 170, 14);
 
 }
-:invalid{
+#emailInput:invalid{
     border-style: outset;
     border-color: red;
 }
