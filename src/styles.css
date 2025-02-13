@@ -18,6 +18,7 @@ header{
     }
 
 form{
+    border-width: 0px;
     width: 330px;
     margin: 10px;
     background-color: #41C9E2;
@@ -36,3 +37,13 @@ form{
         border-radius: 15px;
         background-color: #F7EEDD;
     }
+
+:valid{
+    border-style: inset;
+    border-color: rgb(14, 170, 14);
+
+}
+:invalid{
+    border-style: outset;
+    border-color: red;
+}
